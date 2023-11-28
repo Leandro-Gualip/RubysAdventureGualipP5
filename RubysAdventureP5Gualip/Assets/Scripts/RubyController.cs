@@ -49,8 +49,8 @@ public class RubyController : MonoBehaviour
             lookDirection.Normalize();
         }
 
-        animator.SetFloat("Look x", lookDirection.x);
-        animator.SetFloat("Look y", lookDirection.y);
+        animator.SetFloat("Look X", lookDirection.x);
+        animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
 
         if (isInvincible)
